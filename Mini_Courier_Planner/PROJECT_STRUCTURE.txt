@@ -1,0 +1,15 @@
+Mini_Courier_Planner/
+  main.py
+  README.md
+  requirements.txt
+  PROJECT_STRUCTURE.txt
+  data/
+    sample_data.json
+    small_data.json
+    large_data.json
+  docs/
+    Capstone_Report.docx
+  results/
+    benchmark_results.csv
+    benchmark_runtime.png
+    sample_output.txt

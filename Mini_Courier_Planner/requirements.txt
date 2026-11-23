@@ -1,0 +1,4 @@
+# Core planner uses only Python standard library.
+# matplotlib and python-docx are needed only to regenerate report assets.
+matplotlib
+python-docx

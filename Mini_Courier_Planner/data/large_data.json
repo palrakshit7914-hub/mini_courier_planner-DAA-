@@ -1,0 +1,337 @@
+{
+  "project": "Mini-Courier Planner",
+  "depot": "D",
+  "capacity": 35,
+  "nodes": [
+    "D",
+    "A",
+    "B",
+    "C",
+    "E",
+    "F"
+  ],
+  "roads": [
+    {
+      "from": "D",
+      "to": "A",
+      "distance": 4
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "distance": 2
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "distance": 1
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "distance": 5
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "distance": 8
+    },
+    {
+      "from": "B",
+      "to": "E",
+      "distance": 10
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "distance": 2
+    },
+    {
+      "from": "C",
+      "to": "F",
+      "distance": 6
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "distance": 3
+    },
+    {
+      "from": "D",
+      "to": "F",
+      "distance": 12
+    }
+  ],
+  "parcels": [
+    {
+      "id": "P01",
+      "name": "Parcel 1",
+      "priority": 2,
+      "deadline": 2,
+      "weight": 2,
+      "value": 27,
+      "destination": "A"
+    },
+    {
+      "id": "P02",
+      "name": "Parcel 2",
+      "priority": 3,
+      "deadline": 3,
+      "weight": 3,
+      "value": 34,
+      "destination": "B"
+    },
+    {
+      "id": "P03",
+      "name": "Parcel 3",
+      "priority": 4,
+      "deadline": 4,
+      "weight": 4,
+      "value": 41,
+      "destination": "C"
+    },
+    {
+      "id": "P04",
+      "name": "Parcel 4",
+      "priority": 5,
+      "deadline": 5,
+      "weight": 5,
+      "value": 48,
+      "destination": "E"
+    },
+    {
+      "id": "P05",
+      "name": "Parcel 5",
+      "priority": 1,
+      "deadline": 6,
+      "weight": 6,
+      "value": 55,
+      "destination": "F"
+    },
+    {
+      "id": "P06",
+      "name": "Parcel 6",
+      "priority": 2,
+      "deadline": 7,
+      "weight": 7,
+      "value": 62,
+      "destination": "A"
+    },
+    {
+      "id": "P07",
+      "name": "Parcel 7",
+      "priority": 3,
+      "deadline": 8,
+      "weight": 1,
+      "value": 69,
+      "destination": "B"
+    },
+    {
+      "id": "P08",
+      "name": "Parcel 8",
+      "priority": 4,
+      "deadline": 9,
+      "weight": 2,
+      "value": 76,
+      "destination": "C"
+    },
+    {
+      "id": "P09",
+      "name": "Parcel 9",
+      "priority": 5,
+      "deadline": 10,
+      "weight": 3,
+      "value": 83,
+      "destination": "E"
+    },
+    {
+      "id": "P10",
+      "name": "Parcel 10",
+      "priority": 1,
+      "deadline": 1,
+      "weight": 4,
+      "value": 90,
+      "destination": "F"
+    },
+    {
+      "id": "P11",
+      "name": "Parcel 11",
+      "priority": 2,
+      "deadline": 2,
+      "weight": 5,
+      "value": 97,
+      "destination": "A"
+    },
+    {
+      "id": "P12",
+      "name": "Parcel 12",
+      "priority": 3,
+      "deadline": 3,
+      "weight": 6,
+      "value": 104,
+      "destination": "B"
+    },
+    {
+      "id": "P13",
+      "name": "Parcel 13",
+      "priority": 4,
+      "deadline": 4,
+      "weight": 7,
+      "value": 21,
+      "destination": "C"
+    },
+    {
+      "id": "P14",
+      "name": "Parcel 14",
+      "priority": 5,
+      "deadline": 5,
+      "weight": 1,
+      "value": 28,
+      "destination": "E"
+    },
+    {
+      "id": "P15",
+      "name": "Parcel 15",
+      "priority": 1,
+      "deadline": 6,
+      "weight": 2,
+      "value": 35,
+      "destination": "F"
+    },
+    {
+      "id": "P16",
+      "name": "Parcel 16",
+      "priority": 2,
+      "deadline": 7,
+      "weight": 3,
+      "value": 42,
+      "destination": "A"
+    },
+    {
+      "id": "P17",
+      "name": "Parcel 17",
+      "priority": 3,
+      "deadline": 8,
+      "weight": 4,
+      "value": 49,
+      "destination": "B"
+    },
+    {
+      "id": "P18",
+      "name": "Parcel 18",
+      "priority": 4,
+      "deadline": 9,
+      "weight": 5,
+      "value": 56,
+      "destination": "C"
+    },
+    {
+      "id": "P19",
+      "name": "Parcel 19",
+      "priority": 5,
+      "deadline": 10,
+      "weight": 6,
+      "value": 63,
+      "destination": "E"
+    },
+    {
+      "id": "P20",
+      "name": "Parcel 20",
+      "priority": 1,
+      "deadline": 1,
+      "weight": 7,
+      "value": 70,
+      "destination": "F"
+    },
+    {
+      "id": "P21",
+      "name": "Parcel 21",
+      "priority": 2,
+      "deadline": 2,
+      "weight": 1,
+      "value": 77,
+      "destination": "A"
+    },
+    {
+      "id": "P22",
+      "name": "Parcel 22",
+      "priority": 3,
+      "deadline": 3,
+      "weight": 2,
+      "value": 84,
+      "destination": "B"
+    },
+    {
+      "id": "P23",
+      "name": "Parcel 23",
+      "priority": 4,
+      "deadline": 4,
+      "weight": 3,
+      "value": 91,
+      "destination": "C"
+    },
+    {
+      "id": "P24",
+      "name": "Parcel 24",
+      "priority": 5,
+      "deadline": 5,
+      "weight": 4,
+      "value": 98,
+      "destination": "E"
+    },
+    {
+      "id": "P25",
+      "name": "Parcel 25",
+      "priority": 1,
+      "deadline": 6,
+      "weight": 5,
+      "value": 105,
+      "destination": "F"
+    },
+    {
+      "id": "P26",
+      "name": "Parcel 26",
+      "priority": 2,
+      "deadline": 7,
+      "weight": 6,
+      "value": 22,
+      "destination": "A"
+    },
+    {
+      "id": "P27",
+      "name": "Parcel 27",
+      "priority": 3,
+      "deadline": 8,
+      "weight": 7,
+      "value": 29,
+      "destination": "B"
+    },
+    {
+      "id": "P28",
+      "name": "Parcel 28",
+      "priority": 4,
+      "deadline": 9,
+      "weight": 1,
+      "value": 36,
+      "destination": "C"
+    },
+    {
+      "id": "P29",
+      "name": "Parcel 29",
+      "priority": 5,
+      "deadline": 10,
+      "weight": 2,
+      "value": 43,
+      "destination": "E"
+    },
+    {
+      "id": "P30",
+      "name": "Parcel 30",
+      "priority": 1,
+      "deadline": 1,
+      "weight": 3,
+      "value": 50,
+      "destination": "F"
+    }
+  ]
+}

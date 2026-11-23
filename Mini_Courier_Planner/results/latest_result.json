@@ -1,0 +1,163 @@
+{
+  "sorted_parcels": [
+    {
+      "id": "P01",
+      "name": "Medical Kit",
+      "priority": 5,
+      "deadline": 1,
+      "weight": 4,
+      "value": 95,
+      "destination": "A"
+    },
+    {
+      "id": "P03",
+      "name": "Documents",
+      "priority": 5,
+      "deadline": 1,
+      "weight": 2,
+      "value": 60,
+      "destination": "B"
+    },
+    {
+      "id": "P02",
+      "name": "Electronics",
+      "priority": 4,
+      "deadline": 2,
+      "weight": 6,
+      "value": 90,
+      "destination": "C"
+    },
+    {
+      "id": "P05",
+      "name": "Food Box",
+      "priority": 3,
+      "deadline": 3,
+      "weight": 5,
+      "value": 70,
+      "destination": "F"
+    },
+    {
+      "id": "P04",
+      "name": "Clothing",
+      "priority": 2,
+      "deadline": 5,
+      "weight": 7,
+      "value": 45,
+      "destination": "E"
+    },
+    {
+      "id": "P06",
+      "name": "Books",
+      "priority": 1,
+      "deadline": 8,
+      "weight": 3,
+      "value": 25,
+      "destination": "E"
+    }
+  ],
+  "selected_parcels": [
+    {
+      "id": "P01",
+      "name": "Medical Kit",
+      "priority": 5,
+      "deadline": 1,
+      "weight": 4,
+      "value": 95,
+      "destination": "A"
+    },
+    {
+      "id": "P03",
+      "name": "Documents",
+      "priority": 5,
+      "deadline": 1,
+      "weight": 2,
+      "value": 60,
+      "destination": "B"
+    },
+    {
+      "id": "P02",
+      "name": "Electronics",
+      "priority": 4,
+      "deadline": 2,
+      "weight": 6,
+      "value": 90,
+      "destination": "C"
+    },
+    {
+      "id": "P06",
+      "name": "Books",
+      "priority": 1,
+      "deadline": 8,
+      "weight": 3,
+      "value": 25,
+      "destination": "E"
+    }
+  ],
+  "total_weight": 15,
+  "capacity": 15,
+  "total_value": 270,
+  "route": [
+    "D",
+    "B",
+    "A",
+    "C",
+    "E",
+    "D"
+  ],
+  "legs": [
+    {
+      "from": "D",
+      "to": "B",
+      "path": [
+        "D",
+        "B"
+      ],
+      "distance": 2.0
+    },
+    {
+      "from": "B",
+      "to": "A",
+      "path": [
+        "B",
+        "A"
+      ],
+      "distance": 1.0
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "path": [
+        "A",
+        "C"
+      ],
+      "distance": 5.0
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "path": [
+        "C",
+        "E"
+      ],
+      "distance": 2.0
+    },
+    {
+      "from": "E",
+      "to": "D",
+      "path": [
+        "E",
+        "C",
+        "A",
+        "B",
+        "D"
+      ],
+      "distance": 10.0
+    }
+  ],
+  "route_distance": 20.0,
+  "timings_seconds": {
+    "merge_sort": 4.1600003896746784e-05,
+    "knapsack_dp": 6.940000457689166e-05,
+    "route_planning": 0.00020570000197039917
+  }
+}

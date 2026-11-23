@@ -1,0 +1,36 @@
+
+==================================================================
+                 MINI-COURIER PLANNER
+==================================================================
+Depot: D | Bag capacity: 15 kg
+
+1) PARCEL PRIORITIZATION (Merge Sort)
+   P01 | Medical Kit        | priority=5 | deadline=1 | 4 kg | value=95
+   P03 | Documents          | priority=5 | deadline=1 | 2 kg | value=60
+   P02 | Electronics        | priority=4 | deadline=2 | 6 kg | value=90
+   P05 | Food Box           | priority=3 | deadline=3 | 5 kg | value=70
+   P04 | Clothing           | priority=2 | deadline=5 | 7 kg | value=45
+   P06 | Books              | priority=1 | deadline=8 | 3 kg | value=25
+
+2) OPTIMAL PACKING (0/1 Knapsack DP)
+  - P01: Medical Kit -> A (4 kg, value 95)
+  - P03: Documents -> B (2 kg, value 60)
+  - P02: Electronics -> C (6 kg, value 90)
+  - P06: Books -> E (3 kg, value 25)
+  Packed weight: 15 / 15 kg
+  Maximum total value: 270
+
+3) DELIVERY ROUTE (Dijkstra + Nearest Neighbor TSP)
+  Visit order: D -> B -> A -> C -> E -> D
+  D -> B: D -> B (2.0 units)
+  B -> A: B -> A (1.0 units)
+  A -> C: A -> C (5.0 units)
+  C -> E: C -> E (2.0 units)
+  E -> D: E -> C -> A -> B -> D (10.0 units)
+  Total route distance (including return): 20.0 units
+
+4) MEASURED EXECUTION TIMES
+  merge_sort        : 0.00001458 seconds
+  knapsack_dp       : 0.00001946 seconds
+  route_planning    : 0.00022286 seconds
+==================================================================

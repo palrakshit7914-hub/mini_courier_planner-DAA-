@@ -1,0 +1,103 @@
+{
+  "project": "Mini-Courier Planner",
+  "depot": "D",
+  "capacity": 8,
+  "nodes": [
+    "D",
+    "A",
+    "B",
+    "C",
+    "E",
+    "F"
+  ],
+  "roads": [
+    {
+      "from": "D",
+      "to": "A",
+      "distance": 4
+    },
+    {
+      "from": "D",
+      "to": "B",
+      "distance": 2
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "distance": 1
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "distance": 5
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "distance": 8
+    },
+    {
+      "from": "B",
+      "to": "E",
+      "distance": 10
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "distance": 2
+    },
+    {
+      "from": "C",
+      "to": "F",
+      "distance": 6
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "distance": 3
+    },
+    {
+      "from": "D",
+      "to": "F",
+      "distance": 12
+    }
+  ],
+  "parcels": [
+    {
+      "id": "P01",
+      "name": "Medical Kit",
+      "priority": 5,
+      "deadline": 1,
+      "weight": 4,
+      "value": 95,
+      "destination": "A"
+    },
+    {
+      "id": "P02",
+      "name": "Electronics",
+      "priority": 4,
+      "deadline": 2,
+      "weight": 6,
+      "value": 90,
+      "destination": "C"
+    },
+    {
+      "id": "P03",
+      "name": "Documents",
+      "priority": 5,
+      "deadline": 1,
+      "weight": 2,
+      "value": 60,
+      "destination": "B"
+    },
+    {
+      "id": "P04",
+      "name": "Clothing",
+      "priority": 2,
+      "deadline": 5,
+      "weight": 7,
+      "value": 45,
+      "destination": "E"
+    }
+  ]
+}
